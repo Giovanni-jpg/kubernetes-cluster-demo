@@ -1,4 +1,3 @@
-````markdown
 # Kubernetes Lab with Kind
 
 This lab sets up a local Kubernetes cluster using Kind, deploys Nginx workloads, exposes them with a Service, and demonstrates ConfigMap usage.
@@ -164,7 +163,4 @@ Delete cluster:
 
 ```bash
 kind delete cluster --name=k8s-lab
-```
-
-```
 ```
